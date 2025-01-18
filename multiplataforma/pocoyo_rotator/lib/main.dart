@@ -59,7 +59,7 @@ class RotatingImageState extends State<RotatingImage>
       child: Image.asset(
         "assets/pocoyo.png",
         scale: 4,
-      ), // Coloca tu imagen aquí
+      ),
       builder: (context, child) {
         return Transform.rotate(
           angle: _controller.value * 2.0 * math.pi, // Rotación continua
